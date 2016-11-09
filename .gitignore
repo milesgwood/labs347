@@ -3,3 +3,5 @@
 .DS_Store?
 .git
 
+/JMU-Share/build/
+/JMU-Share/dist/

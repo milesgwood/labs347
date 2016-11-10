@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2016, 7:41:22 PM
+    Author     : greatwmc
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* needed for container min-height */
+}
+div#container {
+    position: relative; /* needed for footer positioning*/
+    height: auto !important; /* real browsers */
+    min-height: 100%; /* real browsers */
+    max-width: 100%;
+    background-color:#dddddd;
+}
+
+div#header {
+    margin-top: 2em;
+}
+
+div#content {
+    margin-bottom: 3em;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 90%;
+    //The width needs to be 90% with 10% padding
+}
+
+div.wrapper {
+    background-color:#ffffff;
+    width: 90%;
+    min-height: 50%;
+}
+
+div#topContent {
+    margin-right: 4em;
+    margin-left: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+div#bottomContent {
+    margin-right: 4em;
+    margin-left: 4em;
+    padding-top: 1em;
+    padding-bottom: 3.5em;
+}
+
+div#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0; /* stick to bottom */
+    background: #ddd;
+}
+
+div.comment {
+    outline: #dddddd solid thin;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+
+        <action name="param_page" 
+                 class="com.opensymphony.xwork2.ActionSupport">
+            <result>/param.jsp</result>
+        </action>
+
+        <action name="form_action" class="action.FormHandler">
+            <result>/param.jsp?paramx=%{paramx}</result>
+        </action>
+
+    </package>
+</struts>
